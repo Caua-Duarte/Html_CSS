@@ -1,0 +1,36 @@
+body{
+    background: lightblue;
+}
+
+#tittle, .subtittle, .post_tittle{
+    color: midnightblue;
+}
+.post_tittle{
+    font-size: 18 px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post{
+    background: lightgray;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image{
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.Post_image_cima{
+    border: 1px black;
+    border-radius: 15px;
+}
