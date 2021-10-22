@@ -10,11 +10,15 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgba(198, 233, 255, 0.884);
+    background-color: lightsteelblue;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+}
+
+a{
+    color: black;
 }
 
 .instagram-wrapper{
@@ -50,7 +54,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: lightcyan;
+    background-color: #f0f0f0;
     width: 100%;
     padding: 1rem;
     border: 1px solid lightsteelblue;
@@ -77,7 +81,8 @@ body{
 }
 
 .Instagram-login {
-    background-color: #0095f6;
+    margin-top: 1rem;
+    background-color: lightsteelblue;
     padding: 8px;
     border-radius: 4px;
 }
@@ -120,10 +125,14 @@ body{
 
 .app-download:nth-child(1) {
     background-image: url(./Get_in_on_I.png);
+    border-radius: 10px;
+    
 }
 
 .app-download:nth-child(2) {
     background-image: url(./Get_in_on_G.png);
+    border-radius: 10px;
+    
 }
 
 @media (max-width: 1024px) {
